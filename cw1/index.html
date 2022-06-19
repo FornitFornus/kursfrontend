@@ -5,17 +5,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Wizytówka</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<header>
+		<header class="topHeader">
 			<h1>NAGŁÓWEK</h1>
+			<nav>NAWIGACJA</nav>
 		</header>
-
-		<nav>NAWIGACJA</nav>
 
 		<main>
 			<!-- CONTENT -->
-			<article>
+			<article class="topArticle">
 				<header>
 					<h2>NAGŁÓWEK AUTONOMICZNEJ CZĘŚCI STRONY</h2>
 					<br />
@@ -28,28 +28,30 @@
 					/>
 				</header>
 
-				<table border="1">
-					<tr>
-						<th>Nazwa</th>
-						<th>Ocena</th>
-					</tr>
+				<div class="tableContent">
+					<table border="1">
+						<tr>
+							<th>Nazwa</th>
+							<th>Ocena</th>
+						</tr>
 
-					<tr>
-						<td>HTML</td>
-						<td>⭐⭐⭐⭐⭐⭐</td>
-					</tr>
+						<tr>
+							<td>HTML</td>
+							<td>⭐⭐⭐⭐⭐⭐</td>
+						</tr>
 
-					<tr>
-						<td>INNE</td>
-						<td>⭐⭐⭐</td>
-					</tr>
-				</table>
+						<tr>
+							<td>INNE</td>
+							<td>⭐⭐⭐</td>
+						</tr>
+					</table>
+				</div>
 			</article>
 
 			<br />
 
-			<section>
-				<header>TEMATYCZNIE ZGRUPOWANY CONTENT</header>
+			<section class="sectionStyle">
+				<h2>TEMATYCZNIE ZGRUPOWANY CONTENT</h2>
 
 				<ol>
 					<li>element 1</li>
@@ -61,7 +63,7 @@
 
 		<article>
 			<h2>Napisz wiadomość</h2>
-			<form>
+			<form class="messageForm">
 				<input type="text" placeholder="EMAIL" /> <br />
 				<textarea
 					name=""

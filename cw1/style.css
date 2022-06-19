@@ -1,0 +1,55 @@
+body {
+	background-color: rgb(243, 72, 72);
+}
+
+article {
+	border: 5px dashed rgb(30, 255, 0);
+}
+
+.topArticle {
+	border: 5px dashed rgb(0, 47, 255);
+	text-align: center;
+}
+
+.topArticle table {
+	border: 5px dashed rgb(0, 47, 255);
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+	background-color: rgba(255, 255, 255, 0.473);
+}
+
+h2 {
+	text-align: center;
+}
+
+.test {
+	border: 5px dashed rgb(251, 255, 0);
+}
+
+.topHeader {
+	border: 5px dashed yellow;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+/*wszysty potomkowie topHeader */
+.topHeader h1,
+.topHeader nav {
+	margin: 2px;
+}
+
+.messageForm {
+	border: 2px dashed red;
+	display: flex;
+	flex-direction: column;
+}
+
+.sectionStyle {
+	display: block;
+	text-align: center;
+}
