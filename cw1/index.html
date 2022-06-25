@@ -18,51 +18,54 @@
 			<article class="topArticle">
 				<header>
 					<h2>NAGŁÓWEK AUTONOMICZNEJ CZĘŚCI STRONY</h2>
-					<br />
 
-					<img
-						src="https://www.w3schools.com/w3css/img_avatar3.png"
-						alt="User Image"
-						width="250px"
-						height="250px"
-					/>
+					<div class="imageContent">
+						<img
+							src="https://www.w3schools.com/w3css/img_avatar3.png"
+							alt="User Image"
+							width="250px"
+							height="250px"
+						/>
+					</div>
 				</header>
 
 				<div class="tableContent">
 					<table border="1">
-						<tr>
-							<th>Nazwa</th>
-							<th>Ocena</th>
-						</tr>
-
-						<tr>
-							<td>HTML</td>
-							<td>⭐⭐⭐⭐⭐⭐</td>
-						</tr>
-
-						<tr>
-							<td>INNE</td>
-							<td>⭐⭐⭐</td>
-						</tr>
+						<!-- <thead>
+							<tr>
+								<th>Nazwa</th>
+								<th>Ocena</th>
+							</tr>
+						</thead> -->
+						<tbody>
+							<tr>
+								<td>HTML</td>
+								<td>⭐⭐⭐⭐⭐⭐</td>
+							</tr>
+							<tr>
+								<td>INNE</td>
+								<td>⭐⭐⭐</td>
+							</tr>
+						</tbody>
 					</table>
 				</div>
 			</article>
 
-			<br />
-
 			<section class="sectionStyle">
 				<h2>TEMATYCZNIE ZGRUPOWANY CONTENT</h2>
 
-				<ol>
+				<ul>
 					<li>element 1</li>
 					<li>element 2</li>
 					<li>element 3</li>
-				</ol>
+				</ul>
 			</section>
 		</main>
 
 		<article>
-			<h2>Napisz wiadomość</h2>
+			<div class="formHeader">
+				<h2>Napisz wiadomość</h2>
+			</div>
 			<form class="messageForm">
 				<input type="text" placeholder="EMAIL" /> <br />
 				<textarea
@@ -77,9 +80,7 @@
 			</form>
 		</article>
 
-		<br />
-
-		<footer>
+		<footer class="footer">
 			<h2>STOPKA</h2>
 		</footer>
 	</body>

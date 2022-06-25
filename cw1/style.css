@@ -1,55 +1,69 @@
 body {
-	background-color: rgb(243, 72, 72);
-}
-
-article {
-	border: 5px dashed rgb(30, 255, 0);
-}
-
-.topArticle {
-	border: 5px dashed rgb(0, 47, 255);
-	text-align: center;
-}
-
-.topArticle table {
-	border: 5px dashed rgb(0, 47, 255);
-}
-
-h1 {
-	padding: 0px;
-	margin: 0px;
-	background-color: rgba(255, 255, 255, 0.473);
-}
-
-h2 {
-	text-align: center;
-}
-
-.test {
-	border: 5px dashed rgb(251, 255, 0);
+	background-color: rgb(4, 75, 122);
 }
 
 .topHeader {
-	border: 5px dashed yellow;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
+	font-size: 0.8rem;
+	background-color: white;
 }
 
-/*wszysty potomkowie topHeader */
+/*wszyscy potomkowie topHeader */
 .topHeader h1,
 .topHeader nav {
 	margin: 2px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.topArticle {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.topArticle header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.topArticleHeader {
+	text-align: center;
+}
+
+.formHeader {
+	color: white;
+	text-align: center;
 }
 
 .messageForm {
 	border: 2px dashed red;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
-.sectionStyle {
-	display: block;
-	text-align: center;
+.footer {
+	color: white;
+	display: flex;
+	justify-content: end;
+}
+
+@media (min-width: 768px) {
+	.topArticle {
+		flex-direction: row;
+	}
+	.topArticle header,
+	.topArticle table {
+		flex: 1;
+	}
 }
