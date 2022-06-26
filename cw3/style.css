@@ -110,6 +110,10 @@ button:active {
 		display: flex;
 	}
 
+	header {
+		height: 450px;
+	}
+
 	header img {
 		height: 450px;
 		width: 300px;
