@@ -42,3 +42,11 @@ th {
 	vertical-align: bottom;
 	padding: 4px 10px;
 }
+
+tr:active {
+	background-color: aqua;
+}
+
+tr:hover {
+	background-color: aqua;
+}
